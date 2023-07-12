@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import DarkModeContext from './DarkModeContext'
 
-const Content = () => {
+function Content () {
     const { darkMode } = useContext(DarkModeContext);
 
     const contentProvider = () => {

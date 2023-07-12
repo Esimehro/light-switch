@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import DarkModeContext from './DarkModeContext'
 
-const LightSwitch = () => {
+function LightSwitch  ()  {
   const { darkMode, toggleDarkMode } = useContext(DarkModeContext);
 
   const handleClick = () => {

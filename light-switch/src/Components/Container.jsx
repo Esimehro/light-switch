@@ -3,7 +3,7 @@ import Content from './Content';
 import DarkModeContext from './DarkModeContext';
 import LightSwitch from './LightSwitch';
 
-const Container = () => {
+function Container () {
 
     const {darkMode} = useContext(DarkModeContext);
   return (
